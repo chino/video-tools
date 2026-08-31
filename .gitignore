@@ -1,0 +1,18 @@
+# Generated output -- audio/video/transcripts/intermediate caches, all
+# regenerable from source + scripts. Each tool keeps its own output/ dir.
+**/output/
+
+# Safety net in case a future tool doesn't follow that convention
+*.wav
+*.aac
+*.mkv
+*.mp4
+span_clips/
+span_clips_en/
+demucs_out/
+demucs_out_en/
+spotcheck*/
+*.log
+
+__pycache__/
+*.pyc
